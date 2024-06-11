@@ -1,0 +1,140 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(8, 3, 28);
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+   
+  }
+  
+  .container{
+    margin: auto;
+    text-align: center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+   color: white;
+    margin-top: 90px;
+  }
+  
+  .container h1{
+    max-width:480px;
+   
+  }
+  
+  .enter{
+    color: white;
+    margin-top:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    text-align:center;
+    background-color:rgb(64, 44, 96);
+    width: 500px;
+    height:300px;
+    border: 2px solid;
+    box-shadow:  6px 6px 6px rgb(38, 32, 150);
+  }
+  
+  
+  #number{
+    padding:10px;
+    width: 280px;
+    height: 30px;
+    background-color: rgb(5, 5, 53);
+    border: 1px solid white;
+    color: white;
+    font-size: 30px;
+  }
+  #number:hover{
+    box-shadow:  6px 6px 6px rgb(21, 166, 198);
+  }
+  
+  #convert-btn{
+    font-size: 25px;
+    width: 300px;
+    height: 50px;
+    margin-top:40px;
+    margin-bottom: 40px;
+    
+  }
+  
+  .hide{
+   display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+    margin-top:50px;
+    background-color:rgb(232, 162, 162);
+    width:500px;
+    border: 2px solid rgb(177, 4, 4);
+   max-height: 120px;
+    color: black;
+
+  }
+  
+
+  
+  .hide2{
+    display:flex;
+  justify-content:center;
+    align-items:center;
+    text-align: center;
+    margin-top:50px;
+    background-color:rgb(64, 44, 96);
+    width:500px;
+    border: 2px solid white;
+   max-height: 120px;
+    color: white;
+  box-shadow:  6px 6px 6px rgb(38, 32, 150);
+  
+  }
+
+@media (min-width:320px) and (max-width:480px){
+    .container h1{
+        font-size: 20px;
+        margin-top: 100px;
+    }
+
+.enter{
+    width:300px;
+    height:200px;
+}
+
+#number{
+    font-size: 20px;
+    width: 200px;
+    height:20px;
+}
+
+#convert-btn{
+    font-size: 20px;
+    width: 200px;
+    height:45px;
+}
+
+
+.hide{
+    width: 300px;
+}
+
+.hide2{
+    width:300px;
+    height:30px;
+    box-shadow:  6px 6px 6px rgb(38, 32, 150);
+  
+}
+
+}
+
+
+
+
+
+
+
+
+
